@@ -6,7 +6,7 @@
     font-family: karla;
     src: url(fonts/karla/Karla-VariableFont_wght.ttf);
 }
-#nav, #section1, #section2, #section3 {
+.nav, .section1, .section2, .section3 {
     font-family: karla;
 }
 html{
@@ -27,7 +27,7 @@ nav {
 // Styles liés à la section 1
 $couleur_p : #666666;
 
-#section1 {
+.section1 {
     background-color: #E3EEF8;
 }
 
@@ -61,7 +61,7 @@ $couleur_p : #666666;
         color : $couleur_p;
     }
 }
-#info {
+.info {
     margin-right: 58px;
     margin-left: 58px;
 }

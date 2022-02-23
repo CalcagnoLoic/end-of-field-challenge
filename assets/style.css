@@ -7,7 +7,7 @@
   src: url(fonts/karla/Karla-VariableFont_wght.ttf);
 }
 
-#nav, #section1, #section2, #section3 {
+.nav, .section1, .section2, .section3 {
   font-family: karla;
 }
 
@@ -29,7 +29,7 @@ nav p {
   margin-left: 45px;
 }
 
-#section1 {
+.section1 {
   background-color: #E3EEF8;
 }
 
@@ -72,7 +72,7 @@ nav p {
   color: #666666;
 }
 
-#info {
+.info {
   margin-right: 58px;
   margin-left: 58px;
 }
