@@ -1,8 +1,4 @@
-.info1, .info2, .info3, .img {
-  border: 1px solid black;
-}
-
-@media (min-width: 300px) and (max-width: 500px) {
+@media (min-width: 375px) and (max-width: 649px) {
   @font-face {
     font-family: karla;
     src: url(fonts/karla/Karla-VariableFont_wght.ttf);
@@ -11,14 +7,18 @@
     font-family: karla;
   }
   html {
-    position: relative;
-    width: 428px;
+    background-color: #E3EEF8;
+  }
+  body {
+    width: 649px;
   }
   nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     background-color: #E3EEF8;
+    margin-left: auto;
+    margin-right: auto;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
@@ -27,8 +27,6 @@
     font-size: 12px;
     line-height: 14px;
     letter-spacing: -1px;
-    margin-left: 9px;
-    margin-top: -15px;
   }
   nav .logo {
     display: -webkit-box;
@@ -45,12 +43,6 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-top: -25px;
-    margin-left: 320px;
     gap: 2px;
   }
   #menu:hover {
@@ -58,6 +50,7 @@
   }
   .section1 {
     background-color: #E3EEF8;
+    padding-bottom: 141px;
   }
   .body_section1 {
     display: -webkit-box;
@@ -67,14 +60,13 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    max-width: 361px;
-    margin-right: 38px;
-    margin-left: 29px;
+    margin-right: 77px;
+    margin-left: 77px;
   }
   .body_section1 h1 {
     text-align: center;
-    font-size: 40px;
-    line-height: 45px;
+    font-size: 65px;
+    line-height: 60px;
     color: #1f1f11;
     letter-spacing: -4px;
     font-weight: bold;
@@ -82,14 +74,14 @@
   .body_section1 .title1 {
     text-align: center;
     color: #666666;
-    font-size: 10px;
     margin-top: 50px;
-    margin-bottom: -20px;
+    margin-bottom: -30px;
     letter-spacing: 2.8px;
+    font-size: 15px;
   }
   .body_section1 p {
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 25px;
     margin-top: -16px;
     color: #666666;
@@ -107,7 +99,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 35px;
+    margin-left: auto;
+    margin-right: auto;
     gap: 7px;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
@@ -119,7 +112,7 @@
     color: white;
     padding: 7px 28px 7px 28px;
     border: 0px;
-    font-size: 12px;
+    font-size: 15px;
   }
   .email_section1 button:hover {
     cursor: pointer;
@@ -136,11 +129,58 @@
     margin-top: 10px;
     margin-bottom: 64px;
   }
-  .info {
-    margin-top: 64px;
+  .info h2 {
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 50px;
+  }
+  .info p {
+    font-size: 15px;
+    margin-left: 50px;
+    color: #666666;
   }
   .info img {
     width: 24px;
+    height: 26px;
+    position: relative;
+    top: 48px;
+  }
+  .section2 {
+    background-color: #258AFF;
+  }
+  .section2 img {
+    position: relative;
+    bottom: 60px;
+    left: 140px;
+    -webkit-transform: rotate(-9deg);
+            transform: rotate(-9deg);
+  }
+  .section2 h2 {
+    font-size: 15px;
+    color: white;
+    margin-left: 62px;
+    margin-right: 168px;
+  }
+  .section2 h3 {
+    font-size: 30px;
+    color: white;
+    margin-left: 59px;
+    margin-right: 21px;
+  }
+  .section2 p {
+    font-size: 15px;
+    color: #E4E4E4;
+    line-height: 32px;
+    margin-left: 59px;
+    margin-right: 8px;
+    padding-right: 50px;
+  }
+  .section2 button {
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    position: relative;
   }
 }
 /*# sourceMappingURL=style.css.map */
