@@ -1,4 +1,4 @@
-@media (min-width: 375px) and (max-width: 649px) {
+@media (min-width: 375px) and (max-width: 668px) {
   @font-face {
     font-family: karla;
     src: url(fonts/karla/Karla-VariableFont_wght.ttf);
@@ -8,42 +8,50 @@
   }
   html {
     background-color: #E3EEF8;
+    width: 700px;
   }
   body {
-    width: 649px;
+    width: 700px;
+    padding: 0;
+    margin: 0;
   }
   nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     background-color: #E3EEF8;
-    margin-left: auto;
-    margin-right: auto;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
+    margin-left: 35px;
   }
   nav p {
-    font-size: 12px;
+    font-size: 18px;
     line-height: 14px;
     letter-spacing: -1px;
+    padding-left: 10px;
+    position: relative;
+    top: 30px;
   }
   nav .logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-left: 35px;
-    margin-top: 11px;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 20px;
+    height: 15px;
+    position: relative;
+    top: 30px;
   }
   #menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 2px;
+    position: relative;
+    left: 530px;
+    top: 30px;
+    width: 50px;
+    height: 50px;
   }
   #menu:hover {
     cursor: pointer;
@@ -87,13 +95,12 @@
     color: #666666;
   }
   .body_section1 p:last-child {
-    font-size: 10px;
+    font-size: 13px;
     margin-top: 16px;
     color: #666666;
   }
   .info {
-    margin-right: 58px;
-    margin-left: 58px;
+    margin-left: 158px;
   }
   .email_section1 {
     display: -webkit-box;
@@ -110,7 +117,7 @@
     background-color: #FC593B;
     border-radius: 5px;
     color: white;
-    padding: 7px 28px 7px 28px;
+    padding: 10px 28px 7px 28px;
     border: 0px;
     font-size: 15px;
   }
@@ -119,9 +126,9 @@
   }
   .email_section1 input {
     border-radius: 5px;
-    padding: 7px 7px 7px 7px;
+    padding: 11px 7px 7px 7px;
     border: 0px;
-    max-width: 133px;
+    max-width: 150px;
   }
   .email_section1 p {
     font-size: 10px;
@@ -130,57 +137,73 @@
     margin-bottom: 64px;
   }
   .info h2 {
-    font-size: 20px;
+    font-size: 30px;
     line-height: 32px;
     margin-left: 50px;
   }
   .info p {
-    font-size: 15px;
+    font-size: 18px;
     margin-left: 50px;
     color: #666666;
   }
   .info img {
-    width: 24px;
-    height: 26px;
+    width: 40px;
+    height: 42px;
     position: relative;
-    top: 48px;
+    top: 65px;
+    right: 45px;
   }
   .section2 {
     background-color: #258AFF;
+    border: 0px;
   }
   .section2 img {
     position: relative;
-    bottom: 60px;
-    left: 140px;
+    bottom: 90px;
+    left: 220px;
     -webkit-transform: rotate(-9deg);
             transform: rotate(-9deg);
+    width: 220px;
+    height: 490px;
+  }
+  .section2 div {
+    position: relative;
+    bottom: 40px;
   }
   .section2 h2 {
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     margin-left: 62px;
-    margin-right: 168px;
+    margin-right: 468px;
+    line-height: 18px;
+    letter-spacing: 2.8125px;
+    text-transform: uppercase;
   }
   .section2 h3 {
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     margin-left: 59px;
-    margin-right: 21px;
+    margin-right: 151px;
   }
   .section2 p {
-    font-size: 15px;
+    font-size: 20px;
     color: #E4E4E4;
     line-height: 32px;
     margin-left: 59px;
-    margin-right: 8px;
     padding-right: 50px;
+    margin-right: 151px;
   }
   .section2 button {
     background-color: white;
-    color: blue;
+    color: #258AFF;
     border-radius: 5px;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 50px 5px 50px;
     position: relative;
+    border: 0px;
+    left: 60px;
+  }
+  .section2 button:hover {
+    cursor: pointer;
   }
 }
 /*# sourceMappingURL=style.css.map */
