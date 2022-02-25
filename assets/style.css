@@ -58,7 +58,7 @@
   }
   .section1 {
     background-color: #E3EEF8;
-    padding-bottom: 141px;
+    padding-bottom: 96px;
   }
   .body_section1 {
     display: -webkit-box;
@@ -99,9 +99,6 @@
     margin-top: 10px;
     color: #666666;
   }
-  .info {
-    margin-left: 158px;
-  }
   .email_section1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -113,23 +110,23 @@
         -ms-flex-align: baseline;
             align-items: baseline;
   }
+  .email_section1 input {
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    border: 0px;
+    max-width: 133px;
+    font-size: 10px;
+  }
   .email_section1 button {
     background-color: #FC593B;
     border-radius: 5px;
     color: white;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 25px 5px 25px;
     border: 0px;
     font-size: 10px;
   }
   .email_section1 button:hover {
     cursor: pointer;
-  }
-  .email_section1 input {
-    border-radius: 5px;
-    padding: 5px 5px 5px 5px;
-    border: 0px;
-    max-width: 100px;
-    font-size: 10px;
   }
   .email_section1 p {
     font-size: 10px;
@@ -137,68 +134,75 @@
     margin-top: 10px;
     margin-bottom: 64px;
   }
+  .info {
+    margin-left: 58px;
+    margin-top: 67px;
+  }
   .info h2 {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 32px;
     margin-left: 50px;
+    margin-top: -30px;
   }
   .info p {
-    font-size: 18px;
+    font-size: 15px;
     margin-left: 50px;
     color: #666666;
+  }
+  .info p:last-child {
+    padding-bottom: 50px;
   }
   .info img {
     width: 24px;
     height: 26px;
-    position: relative;
-    top: 65px;
     right: 45px;
   }
   .section2 {
     background-color: #258AFF;
-    border: 0px;
+    padding-bottom: 30px;
   }
   .section2 img {
     position: relative;
     bottom: 90px;
-    left: 220px;
+    left: 150px;
     -webkit-transform: rotate(-9deg);
             transform: rotate(-9deg);
     width: 163px;
     height: 325px;
+    -webkit-filter: drop-shadow(0px 2px 54px rgba(0, 0, 0, 0.208135));
+            filter: drop-shadow(0px 2px 54px rgba(0, 0, 0, 0.208135));
   }
   .section2 div {
     position: relative;
     bottom: 40px;
   }
   .section2 h2 {
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     margin-left: 62px;
-    margin-right: 468px;
+    margin-right: 175px;
     line-height: 18px;
     letter-spacing: 2.8125px;
     text-transform: uppercase;
   }
   .section2 h3 {
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     margin-left: 59px;
-    margin-right: 151px;
+    margin-right: 69px;
   }
   .section2 p {
-    font-size: 20px;
+    font-size: 15px;
     color: #E4E4E4;
     line-height: 32px;
     margin-left: 59px;
-    padding-right: 50px;
-    margin-right: 151px;
+    margin-right: 75px;
   }
   .section2 button {
     background-color: white;
     color: #258AFF;
     border-radius: 5px;
-    padding: 5px 50px 5px 50px;
+    padding: 5px 50px 5px 55px;
     position: relative;
     border: 0px;
     left: 60px;
