@@ -1,4 +1,4 @@
-@media (min-width : 375px) and (max-width : 668px) {
+@media (min-width : 360px) and (max-width : 730px) {
     // Styles liés à la typographie
     @font-face {
         font-family: karla;
@@ -9,10 +9,9 @@
     }
     html{
         background-color: #E3EEF8;
-        width: 700px;
+        width: 730px;
     }
     body {
-        width: 700px;
         padding: 0; //enlève la marge "blanche" sur la page
         margin: 0;
     }
