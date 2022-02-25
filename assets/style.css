@@ -42,19 +42,31 @@
     height: 15px;
     top: 30px;
   }
-  nav #menu {
+  nav .menu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    padding-left: 280px;
+    padding-left: 250px;
     width: 15px;
     height: 10px;
   }
-  nav #menu:hover {
+  nav .menu:hover {
     cursor: pointer;
+  }
+  .btn {
+    background-color: #83b0e4;
+    border-radius: 4px;
+    border: 1px solid #83b0e4;
+    display: none;
+    padding-left: 0;
+    position: absolute;
+    right: 45px;
+    top: 0px;
+    z-index: 10;
+    list-style-type: none;
   }
   .section1 {
     background-color: #E3EEF8;
@@ -159,6 +171,7 @@
   }
   .section2 {
     background-color: #258AFF;
+    background-size: auto;
     padding-bottom: 30px;
   }
   .section2 img {
