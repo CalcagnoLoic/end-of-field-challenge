@@ -9,7 +9,6 @@
     }
     html{
         background-color: #E3EEF8;
-        width: 730px;
     }
     body {
         padding: 0; //enlève la marge "blanche" sur la page
@@ -40,7 +39,7 @@
     }
     #menu {
         position: relative;
-        left: 530px;
+        left: 180px;
         top: 30px;
         width: 50px; height: 50px;
         &:hover {
