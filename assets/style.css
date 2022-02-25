@@ -49,7 +49,7 @@
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    padding-left: 300px;
+    padding-left: 280px;
     width: 15px;
     height: 10px;
   }
@@ -209,6 +209,62 @@
   }
   .section2 button:hover {
     cursor: pointer;
+  }
+  .section3 h2 {
+    font-size: 15px;
+    color: #258AFF;
+    margin-left: 62px;
+    margin-top: 67px;
+    text-transform: uppercase;
+  }
+  .section3 h3 {
+    font-size: 30px;
+    margin-left: 54px;
+    margin-right: 64px;
+    margin-top: 20px;
+    letter-spacing: -2.52px;
+  }
+  .section3 p {
+    font-size: 15px;
+    color: #666666;
+    margin-left: 54px;
+    margin-right: 63px;
+    line-height: 32px;
+  }
+  .section3 .info_center h2 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin-left: 0px;
+    text-transform: none;
+  }
+  .section3 .info_center p {
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+  }
+  .section3 .info_center img {
+    position: relative;
+    left: 45%;
+    top: 20px;
+    padding-top: 10px;
+  }
+  .section3 .img3 {
+    padding-top: 54px;
+    padding-bottom: 32px;
+    padding-left: 15%;
+  }
+  .section3 .img3 img {
+    width: 300px;
+    height: 636px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 30% 50%;
+       object-position: 30% 50%;
+    border-radius: 5%;
+    -webkit-box-shadow: 1px 5px 35px #b9b9b9;
+            box-shadow: 1px 5px 35px #b9b9b9;
   }
 }
 /*# sourceMappingURL=style.css.map */
