@@ -9,6 +9,10 @@
     position: relative;
     background: #e3eef8;
   }
+  body {
+    padding: 0;
+    margin: 0;
+  }
   .section4 {
     border-top: solid white 3px;
   }
@@ -16,27 +20,33 @@
     font-size: 15px;
     height: 18px;
     width: 186px;
-    margin-left: 67px;
+    margin-left: 50px;
     color: #258aff;
-    margin-left: 15.65%;
   }
   .section4 h2 {
     font-weight: bold;
     font-size: 30px;
     line-height: 30px;
     color: #1f1f1f;
-    margin-left: 15.65%;
+    margin-left: 50px;
+    margin-right: 150px;
+    letter-spacing: -2.52632px;
   }
   .section4 p {
     font-size: 15px;
     line-height: 32px;
     color: #666666;
-    margin-left: 15.65%;
-    margin-right: 10.75%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .section4 .image {
+    mix-blend-mode: luminosity;
+    opacity: 0.5;
+    padding-bottom: 150px;
   }
   .citation1 {
-    margin-left: 57px;
-    margin-right: 59px;
+    margin-left: 30px;
+    margin-right: 30px;
     background-color: #ffffff;
     -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
@@ -62,7 +72,7 @@
   .citation1 .metier {
     font-size: 12px;
     color: #666666;
-    padding-left: 50px;
+    padding-left: 40px;
   }
   .citation1 img {
     border-radius: 20px;
@@ -71,8 +81,8 @@
     left: 30px;
   }
   .citation2 {
-    margin-left: 57px;
-    margin-right: 59px;
+    margin-left: 30px;
+    margin-right: 30px;
     background-color: #ffffff;
     -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
@@ -105,8 +115,8 @@
     left: 30px;
   }
   .citation3 {
-    margin-left: 57px;
-    margin-right: 59px;
+    margin-left: 30px;
+    margin-right: 30px;
     background-color: #ffffff;
     -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
@@ -114,23 +124,28 @@
     padding-bottom: -30px;
   }
   blockquote {
-    margin-left: -60px;
     margin-right: -60px;
+    font-size: 15px;
+    letter-spacing: -0.1px;
   }
   blockquote p {
     font-size: 15px;
     color: #1f1f1f;
     padding-top: 20px;
+    margin-left: -60px;
+    margin-right: -60px;
   }
   figcaption {
     font-size: 15px;
     font-weight: bold;
     padding-left: 50px;
+    padding-top: 20px;
   }
   .metier {
     font-size: 12px;
     color: #666666;
     padding-left: 50px;
+    letter-spacing: -0.4px;
   }
   img {
     border-radius: 20px;
@@ -139,8 +154,8 @@
     left: 30px;
   }
   .citation4 {
-    margin-left: 57px;
-    margin-right: 59px;
+    margin-left: 30px;
+    margin-right: 30px;
     background-color: #ffffff;
     -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
@@ -172,12 +187,14 @@
     bottom: 70px;
     left: 30px;
   }
-  .citation-cache {
-    display: none;
-  }
   .image {
     mix-blend-mode: luminosity;
     opacity: 0.5;
+    padding-bottom: 150px;
+    padding-top: 80px;
+  }
+  .citation-cache {
+    display: none;
   }
   .section5 {
     background-color: #192f48;
@@ -189,12 +206,14 @@
     letter-spacing: 2.8125px;
     text-transform: uppercase;
     color: #ffffff;
+    margin-left: 30px;
   }
   .section5 h2 {
     font-weight: bold;
     font-size: 25px;
     line-height: 30px;
     color: #ffffff;
+    margin-left: 30px;
   }
   button :hover {
     cursor: pointer;
@@ -203,6 +222,8 @@
     color: #e5e5e5;
     background-color: #192f48;
     border-radius: 6px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
   .tarif h5 {
     font-weight: bold;
@@ -210,17 +231,118 @@
     color: #e5e5e5;
     letter-spacing: 0.433333px;
     text-transform: uppercase;
+    margin-left: 30px;
   }
   .tarif .fonds {
     background: #2b405a;
     border-radius: 6px;
     padding-bottom: -70px;
-    margin-left: 57px;
-    margin-right: 59px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .tarif p {
     font-size: 12px;
     letter-spacing: -0.4px line-height 23px;
+    margin-left: 35px;
+    margin-right: 35px;
   }
+  .tarif button {
+    background-color: #258AFF;
+    color: #e5e5e5;
+    margin-left: 35px;
+    border: none;
+  }
+  .prix {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  h6 {
+    font-size: 13px;
+    letter-spacing: -0.4px;
+    color: #878B90;
+    margin-left: 35px;
+  }
+  .fonds2 {
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding-bottom: -70px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fonds2 h2, .fonds2 h4 {
+    color: #1F1F1F;
+  }
+  .fonds2 h5 {
+    letter-spacing: 0.433333px;
+    text-transform: uppercase;
+    color: #666666;
+  }
+  .fonds2 .pop {
+    background: #4EAB08;
+    border-radius: 13px;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -0.514286px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    float: right;
+    margin-right: 20px;
+  }
+  .fonds2 .prix2 {
+    color: #1F1F1F;
+    margin-left: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .fonds2 .pro {
+    font-size: 12px;
+    letter-spacing: -0.4px;
+    color: #666666;
+    font-weight: normal;
+  }
+  .fonds2 .pro img {
+    color: #1F1F1F;
+  }
+}
+
+footer {
+  background-color: #e3eef8;
+}
+
+footer img {
+  right: 83.52%;
+  bottom: 12.57%;
+  background: #258AFF;
+}
+
+footer h5 {
+  font-family: Rubik;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -1px;
+  color: #1F1F1F;
+  margin-left: 45px;
+}
+
+footer p {
+  font-size: 12px;
+  line-height: 28px;
+  color: #666666;
+  letter-spacing: -0.4px;
+  margin-left: 35px;
+  margin-right: 80px;
+}
+
+footer .end {
+  left: 58px;
+  top: 5942px;
+}
+
+footer .f-help, footer .f-products, footer .f-support {
+  list-style-type: none;
 }
 /*# sourceMappingURL=style.css.map */
