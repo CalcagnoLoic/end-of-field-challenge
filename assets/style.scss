@@ -9,6 +9,7 @@
     }
     html{
         background-color: #E3EEF8;
+        
     }
     body {
         padding: 0; //enlève la marge "blanche" sur la page
@@ -166,7 +167,7 @@
         img {
             position: relative;
             bottom: 90px;
-            left: 150px;
+            left: 30%;
             transform: rotate(-9deg);
             width: 163px;
             height: 325px;
@@ -268,6 +269,7 @@
             object-position: 30% 50%;
             border-radius: 5%;
             box-shadow: 1px 5px 35px #b9b9b9;
+            margin-left: 30%;
            }
         }
     }

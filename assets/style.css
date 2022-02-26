@@ -177,7 +177,7 @@
   .section2 img {
     position: relative;
     bottom: 90px;
-    left: 150px;
+    left: 30%;
     -webkit-transform: rotate(-9deg);
             transform: rotate(-9deg);
     width: 163px;
@@ -278,6 +278,7 @@
     border-radius: 5%;
     -webkit-box-shadow: 1px 5px 35px #b9b9b9;
             box-shadow: 1px 5px 35px #b9b9b9;
+    margin-left: 30%;
   }
 }
 /*# sourceMappingURL=style.css.map */
