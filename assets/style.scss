@@ -20,7 +20,7 @@
         display: flex;
         background-color: #E3EEF8;
         align-items: baseline;
-        margin-left: 35px;
+        padding-left: 10%;
         p {
             font-size: 12px;
             line-height: 14px;
@@ -34,33 +34,36 @@
             width: 20px; height: 15px;
             top: 30px;
         }
-        .menu {
+        .menu_nav {
         display: flex;
         align-items: flex-end;
         padding-left: 250px;
         width: 15px; height: 10px;
-            &:hover {
-                cursor: pointer;
-            }
         }
     }
     //styles liés au menu déroulant
-    .btn {
-        background-color: #83b0e4;
-        border-radius: 4px;
-        border: 1px solid #83b0e4;
+    .menu {
+        background-color: #6b8c8d;
+        border-radius: 5px;
         display: none;
         padding-left: 0;
         position: absolute;
         right: 45px;
-        top: 0px;
+        top: -8px;
         z-index: 10;
         list-style-type: none;
     }
-      
+    .menu li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+        color: #E4E4E4;
+    }
+    .btn:hover{cursor: pointer;}
+   
     // Styles liés à la section 1
     $couleur_p : #666666;
-
     .section1 {
         background-color: #E3EEF8;
         padding-bottom: 96px;
@@ -258,16 +261,17 @@
             }
         }
         .img3 {
-           padding-top: 54px; 
-           padding-bottom: 32px ;
-           padding-left: 7%;
-           img{
-            width: 300px;
-            height: 636px;
-            object-fit: cover;
-            object-position: 30% 50%;
-            border-radius: 5%;
-            box-shadow: 1px 5px 35px #b9b9b9;
+            position: relative;
+            padding-top: 54px; 
+            padding-bottom: 32px ;
+            padding-left: 10%;
+            img{
+                width: 300px;
+                height: 636px;
+                object-fit: cover;
+                object-position: 30% 50%;
+                border-radius: 5%;
+                box-shadow: 1px 5px 35px #b9b9b9;
            }
         }
     }

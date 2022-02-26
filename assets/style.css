@@ -21,7 +21,7 @@
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
-    margin-left: 35px;
+    padding-left: 10%;
   }
   nav p {
     font-size: 12px;
@@ -42,7 +42,7 @@
     height: 15px;
     top: 30px;
   }
-  nav .menu {
+  nav .menu_nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -53,20 +53,26 @@
     width: 15px;
     height: 10px;
   }
-  nav .menu:hover {
-    cursor: pointer;
-  }
-  .btn {
-    background-color: #83b0e4;
-    border-radius: 4px;
-    border: 1px solid #83b0e4;
+  .menu {
+    background-color: #6b8c8d;
+    border-radius: 5px;
     display: none;
     padding-left: 0;
     position: absolute;
     right: 45px;
-    top: 0px;
+    top: -8px;
     z-index: 10;
     list-style-type: none;
+  }
+  .menu li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    color: #E4E4E4;
+  }
+  .btn:hover {
+    cursor: pointer;
   }
   .section1 {
     background-color: #E3EEF8;
@@ -264,9 +270,10 @@
     padding-top: 10px;
   }
   .section3 .img3 {
+    position: relative;
     padding-top: 54px;
     padding-bottom: 32px;
-    padding-left: 7%;
+    padding-left: 10%;
   }
   .section3 .img3 img {
     width: 300px;
