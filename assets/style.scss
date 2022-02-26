@@ -52,13 +52,14 @@
         top: -8px;
         z-index: 10;
         list-style-type: none;
-    }
-    .menu li {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+        li {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.6);
         padding-left: 10px;
         padding-right: 10px;
         font-size: 15px;
         color: #E4E4E4;
+        transition: 0.9s;
+        }
     }
     .btn:hover{cursor: pointer;}
    

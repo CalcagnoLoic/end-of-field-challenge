@@ -1,18 +1,18 @@
-$btnMenu = document.querySelector('.menu');
-$dropdownLink = document.querySelector('.btn');
+$menu = document.querySelector('.menu');
+$btn = document.querySelector('.btn');
 
 
 function toggleNavbar() {
-    if (!$btnMenu.getAttribute('style') || $btnMenu.getAttribute('style') === 'display: none;') {
-        $btnMenu.style.display = 'block';
-        $dropdownLink.setAttribute('aria-expanded', 'true');
+    if (!$menu.getAttribute('style') || $menu.getAttribute('style') === 'display: none;') {
+        $menu.style.display = 'block';
+        $btn.setAttribute('aria-expanded', 'true');
     } else {
-        $btnMenu.style.display = 'none';
-        $dropdownLink.setAttribute('aria-expanded', 'false');
+        $menu.style.display = 'none';
+        $btn.setAttribute('aria-expanded', 'false');
     }
 }
 
-$dropdownLink.addEventListener('click', function(e) {
+$btn.addEventListener('click', function(e) {
     e.preventDefault();
     toggleNavbar();
 })
