@@ -2,13 +2,12 @@
     // Styles liés à la typographie
     @font-face {
         font-family: karla;
-        src: url(fonts/karla/Karla-VariableFont_wght.ttf);
+        src: url(assets\fonts\Karla\Karla-VariableFont_wght.ttf);
     }
-    .nav, .section1, .section2, .section3 {
-        font-family: karla;
-    }
+
     html{
         background-color: #E3EEF8;
+        font-family: karla, sans-serif;
     }
     body {
         padding: 0; //enlève la marge "blanche" sur la page

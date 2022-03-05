@@ -1,13 +1,11 @@
 @media (min-width: 360px) and (max-width: 730px) {
   @font-face {
     font-family: karla;
-    src: url(fonts/karla/Karla-VariableFont_wght.ttf);
-  }
-  .nav, .section1, .section2, .section3 {
-    font-family: karla;
+    src: url(assets\fonts\Karla\Karla-VariableFont_wght.ttf);
   }
   html {
     background-color: #E3EEF8;
+    font-family: karla, sans-serif;
   }
   body {
     padding: 0;
