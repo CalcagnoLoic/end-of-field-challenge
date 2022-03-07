@@ -1,13 +1,14 @@
 @media (min-width: 360px) and(max-width:730px) {
   @font-face {
-    font-family: karla;
-    src: url(fonts/karla/Karla-VariableFont_wght.ttf);
+    font-family: Karla;
+    src: url(fonts/Karla/Karla-VariableFont_wght.ttf);
     font-family: Rubik;
     src: url(fonts/Rubik/Rubik-VariableFont_wght.ttf);
   }
   html {
-    position: relative;
+    position: absolute;
     background: #e3eef8;
+    font-family: Karla, sans-serif;
   }
   body {
     padding: 0;
@@ -17,10 +18,15 @@
     border-top: solid white 3px;
     h4 {
       font-size: 15px;
+      font-weight: bold;
       height: 18px;
-      width: 186px;
       margin-left: 50px;
+      margin-right: 50px ;
       color: #258aff;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin-top: 60px;
+
     }
     h2 {
       font-weight: bold;
@@ -28,20 +34,21 @@
       line-height: 30px;
       color: #1f1f1f;
       margin-left: 50px;
-      margin-right: 150px;
+      margin-right: 80px;
       letter-spacing: -2.52632px;
     }
     p {
       font-size: 15px;
+      font-weight: normal;
       line-height: 32px;
       color: #666666;
       margin-left: 50px;
-      margin-right: 50px;
+      margin-right: 30px;
     }
     .image {
       mix-blend-mode: luminosity;
       opacity: 0.5;
-      padding-bottom: 150px;
+      padding-bottom: 50px;
     }
   }
   .citation1 {
@@ -51,6 +58,9 @@
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
     border-radius: 5px;
     padding-bottom: -30px;
+    height: 300px;
+    margin-left: 55px;
+    margin-right: 55PX;
     blockquote {
       margin-left: -60px;
       margin-right: -60px;
@@ -58,7 +68,10 @@
       font-weight: normal;
       p {
         font-size: 15px;
+        font-family: Rubik;
+        letter-spacing: -0,1px;
         color: #1f1f1f;
+        line-height: 32px;
         padding-top: 20px;
       }
     }
@@ -86,10 +99,17 @@
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
     border-radius: 5px;
     padding-bottom: -30px;
+    height: 250px;
+    margin-right: 55PX;
+    margin-left: 55PX;
     blockquote {
       margin-left: -60px;
       margin-right: -60px;
       p {
+        font-size: 15px;
+        font-family: Rubik;
+        font-weight: normal;
+        letter-spacing: -0,1px;
         font-size: 15px;
         color: #1f1f1f;
         padding-top: 20px;
@@ -126,7 +146,11 @@
     letter-spacing: -0.1px;
     p {
       font-size: 15px;
+      font-family: Rubik;
+      font-weight: normal;
+      letter-spacing: -0,1px;
       color: #1f1f1f;
+      letter-spacing: -0,1px;
       padding-top: 20px;
       margin-left: -60px;
       margin-right: -60px;
@@ -135,6 +159,7 @@
   figcaption {
     font-size: 15px;
     font-weight: bold;
+    letter-spacing: -0,32px;
     padding-left: 50px;
     padding-top: 20px;
   }
@@ -143,12 +168,6 @@
     color: #666666;
     padding-left: 50px;
     letter-spacing: -0.4px;
-  }
-  img {
-    border-radius: 20px;
-    position: relative;
-    bottom: 70px;
-    left: 30px;
   }
   .citation4 {
     margin-left: 30px;
@@ -162,6 +181,9 @@
       margin-right: -60px;
       p {
         font-size: 15px;
+        font-family: Rubik;
+        font-weight: normal;
+        letter-spacing: -0,1px;
         color: #1f1f1f;
         padding-top: 20px;
       }
@@ -186,14 +208,24 @@
   .image {
     mix-blend-mode: luminosity;
     opacity: 0.5;
-    padding-bottom: 150px;
-    padding-top: 80px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+    padding-bottom:50px ;
+    img{
+      //align-content: space-between;
+      justify-content: space-between;
+  
+    }
   }
   .citation-cache {
     display: none;
   }
   .section5 {
     background-color: #192f48;
+    padding-bottom: 20px;
     h4 {
       font-weight: bold;
       font-size: 15px;
@@ -201,135 +233,238 @@
       letter-spacing: 2.8125px;
       text-transform: uppercase;
       color: #ffffff;
-      margin-left: 30px;
+      padding-top: 48px;
+      padding-left: 58px;
     }
     h2 {
       font-weight: bold;
       font-size: 25px;
       line-height: 30px;
       color: #ffffff;
-      margin-left: 30px;
+      letter-spacing: -2,5263px;
+      padding-left: 58px;
     }
   }
   button :hover {
     cursor: pointer;
   }
   .tarif {
-    color: #e5e5e5;
     background-color: #192f48;
     border-radius: 6px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 55px;
+    margin-right: 55px;
     h5 {
       font-weight: bold;
-      font-size: 13px;
+      font-size: 15px;
       color: #e5e5e5;
       letter-spacing: 0.433333px;
       text-transform: uppercase;
-      margin-left: 30px;
+    
     }
     .fonds {
       background: #2b405a;
       border-radius: 6px;
-      padding-bottom: -70px;
-      margin-left: auto;
-      margin-right: auto;
+      padding: 29px 40px 36px 45px;
     }
     p {
       font-size: 12px;
       letter-spacing: -0.4px
       line-height 23px;
-      margin-left: 35px;
-      margin-right: 35px;
+      color: #e5e5e5;
     }
     button{
       background-color: #258AFF;
       color: #e5e5e5;
-      margin-left: 35px;
+      width: 181px;
+      height: 30px;
+      border-radius: 5px;
       border: none;
+      margin-top: 32px;
     }
-    }
-    .prix{
-      display: flex;
-    }
-    h6 {
-      font-size: 13px;
-      letter-spacing: -0.4px;
+    h6{
       color: #878B90;
-      margin-left: 35px;
+    }
+  }
+    .prix{
+     // display: flex;
+      color: #FFFFFF;
+      height: 50px;
+        h6 {
+        font-size: 13px;
+        letter-spacing: -0.4px;
+        color: #FFFFFF;
+        position: relative;
+        }
+        h3 {
+          font-size: 30px;
+          position: relative;
+          left: 10px;
+          bottom: 40px;
+        }
+        p {
+          font-size: 17px;
+          position: relative;
+          left: 43px;
+          bottom: 85px;
+          color: #FFFFFF;
+        }
+    }
+    .text-barré {
+      text-decoration: line-through;
+      color: #878B90;
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+      p{
+        color: #878B90;
+      }
+    }
+    .basic {
+      div{
+        display: flex;
+        gap: 13px;
+      }
+      h6 {
+        color: #878B90;
+      }
     }
     .fonds2 {
-      background: #FFFFFF;
-      border-radius: 6px;
-      padding-bottom: -70px;
-      margin-left: auto;
-      margin-right: auto;
-      h2,h4 {
-        color: #1F1F1F;
-      }
-      h5 {
-        letter-spacing: 0.433333px;
-        text-transform: uppercase;
-        color: #666666;
+      background: #192F48;
+      margin-left: 55px;
+      margin-right: 55px;
+      margin-top: 49px;
+      margin-bottom: 70px;
+      .fonds2A {
+        border-radius: 6px;
+        padding: 49px 55px 30px 55px;
+        background: #FFFFFF;
+        width: 318px;
+        padding-bottom: -50px;
       }
       .pop {
-        background: #4EAB08;
-        border-radius: 13px;
-        font-weight: bold;
-        font-size: 10px;
-        line-height: 12px;
-        letter-spacing: -0.514286px;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        float: right;
-        margin-right: 20px;
-      }
-      .prix2 {
-        color: #1F1F1F;
-        margin-left: 35px;
         display: flex;
+        justify-content: baseline;
+        gap: 150px;
+        h5 {
+          letter-spacing: 0.433333px;
+          text-transform: uppercase;
+          color: #666666;
+          font-size: 20px;
+        }
+        button {
+          background: #4EAB08;
+          border-radius: 13px;
+          font-weight: bold;
+          font-size: 20px;
+          letter-spacing: -0.514286px;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          float: right;
+          margin-right: 20px;
+          border: none;
+        }
       }
+
+      .prix2 {
+        color: #1F1F1F;        
+        h2{
+          color: #000000;
+          margin: 0;
+        }
+        h4 {
+          position: relative;
+          left : -60px;
+          color: #000000;
+        }
+        h2 {
+          position: relative;
+          left : -50px;
+          bottom : 20px;
+        }
+        h3 {
+          position: relative;
+          left : 40px;
+          bottom : 50px;
+        }
+      }
+
       .pro {
-        font-size: 12px;
+        font-size: 15px;
         letter-spacing: -0.4px;
         color: #666666;
         font-weight: normal;
           img{
             color: #1F1F1F;
           }
+          div {
+            display: flex;
+            gap: 10px;
+          }
+          
+      }
+      button{
+            background-color: #FC593B;
+            color: #e5e5e5;
+            width: 181px;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+            margin-top: 32px;
+          }
+      h6 {
+        color: #878B90;
       }
     }
   }
   footer {
     background-color: #e3eef8;
-    img {  
-      right: 83.52%;
-      bottom: 12.57%;
-      background: #258AFF;
+    .logo-ft{
+      display: flex;
+      gap: 4px;
+      justify-items:baseline ;
+      height: 14px;
+      margin-left: 61px;
+      padding-top: 30px;
+      img {  
+        right: 83.52%;
+        bottom: 12.57%;
+        background: #258AFF;
+      }
+      h5 {
+        font-family: Rubik;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: -1px;
+        color: #1F1F1F;
+        margin-top: 0px;
+      }
     }
-    h5 {
-      font-family: Rubik;
-      font-weight: normal;
-      font-size: 12px;
-      line-height: 14px;
-      letter-spacing: -1px;
-      color: #1F1F1F;
-      margin-left: 45px;
-    }
-    p {
+      p {
       font-size: 12px;
       line-height: 28px;
       color: #666666;
       letter-spacing: -0.4px;
-      margin-left: 35px;
+      margin-left: 55px;
       margin-right: 80px;
-    }
+      
+      }
     .end {
       left: 58px;
       top: 5942px;
+      margin-left: 55px;
     }
     .f-help,.f-products,.f-support {
       list-style-type: none;
+      font-weight: bold;
+      letter-spacing: -0.4px;
+      font-size: 15px;
+      line-height: 40px;
+      margin-left: -3px;
+      padding-left: 55px;
+    }
+    .help, .support, .products {
+       color: #666666;
     }
   }
 

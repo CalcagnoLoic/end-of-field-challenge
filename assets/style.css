@@ -1,13 +1,15 @@
+@charset "UTF-8";
 @media (min-width: 360px) and (max-width: 730px) {
   @font-face {
-    font-family: karla;
-    src: url(fonts/karla/Karla-VariableFont_wght.ttf);
+    font-family: Karla;
+    src: url(fonts/Karla/Karla-VariableFont_wght.ttf);
     font-family: Rubik;
     src: url(fonts/Rubik/Rubik-VariableFont_wght.ttf);
   }
   html {
-    position: relative;
+    position: absolute;
     background: #e3eef8;
+    font-family: Karla, sans-serif;
   }
   body {
     padding: 0;
@@ -18,10 +20,14 @@
   }
   .section4 h4 {
     font-size: 15px;
+    font-weight: bold;
     height: 18px;
-    width: 186px;
     margin-left: 50px;
+    margin-right: 50px;
     color: #258aff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 60px;
   }
   .section4 h2 {
     font-weight: bold;
@@ -29,20 +35,21 @@
     line-height: 30px;
     color: #1f1f1f;
     margin-left: 50px;
-    margin-right: 150px;
+    margin-right: 80px;
     letter-spacing: -2.52632px;
   }
   .section4 p {
     font-size: 15px;
+    font-weight: normal;
     line-height: 32px;
     color: #666666;
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 30px;
   }
   .section4 .image {
     mix-blend-mode: luminosity;
     opacity: 0.5;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
   }
   .citation1 {
     margin-left: 30px;
@@ -52,6 +59,9 @@
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
     border-radius: 5px;
     padding-bottom: -30px;
+    height: 300px;
+    margin-left: 55px;
+    margin-right: 55PX;
   }
   .citation1 blockquote {
     margin-left: -60px;
@@ -61,7 +71,10 @@
   }
   .citation1 blockquote p {
     font-size: 15px;
+    font-family: Rubik;
+    letter-spacing: -0,1px;
     color: #1f1f1f;
+    line-height: 32px;
     padding-top: 20px;
   }
   .citation1 figcaption {
@@ -88,12 +101,19 @@
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
     border-radius: 5px;
     padding-bottom: -30px;
+    height: 250px;
+    margin-right: 55PX;
+    margin-left: 55PX;
   }
   .citation2 blockquote {
     margin-left: -60px;
     margin-right: -60px;
   }
   .citation2 blockquote p {
+    font-size: 15px;
+    font-family: Rubik;
+    font-weight: normal;
+    letter-spacing: -0,1px;
     font-size: 15px;
     color: #1f1f1f;
     padding-top: 20px;
@@ -130,7 +150,11 @@
   }
   blockquote p {
     font-size: 15px;
+    font-family: Rubik;
+    font-weight: normal;
+    letter-spacing: -0,1px;
     color: #1f1f1f;
+    letter-spacing: -0,1px;
     padding-top: 20px;
     margin-left: -60px;
     margin-right: -60px;
@@ -138,6 +162,7 @@
   figcaption {
     font-size: 15px;
     font-weight: bold;
+    letter-spacing: -0,32px;
     padding-left: 50px;
     padding-top: 20px;
   }
@@ -146,12 +171,6 @@
     color: #666666;
     padding-left: 50px;
     letter-spacing: -0.4px;
-  }
-  img {
-    border-radius: 20px;
-    position: relative;
-    bottom: 70px;
-    left: 30px;
   }
   .citation4 {
     margin-left: 30px;
@@ -168,6 +187,9 @@
   }
   .citation4 blockquote p {
     font-size: 15px;
+    font-family: Rubik;
+    font-weight: normal;
+    letter-spacing: -0,1px;
     color: #1f1f1f;
     padding-top: 20px;
   }
@@ -190,14 +212,31 @@
   .image {
     mix-blend-mode: luminosity;
     opacity: 0.5;
-    padding-bottom: 150px;
-    padding-top: 80px;
+    margin-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .image img {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .citation-cache {
     display: none;
   }
   .section5 {
     background-color: #192f48;
+    padding-bottom: 20px;
   }
   .section5 h4 {
     font-weight: bold;
@@ -206,99 +245,167 @@
     letter-spacing: 2.8125px;
     text-transform: uppercase;
     color: #ffffff;
-    margin-left: 30px;
+    padding-top: 48px;
+    padding-left: 58px;
   }
   .section5 h2 {
     font-weight: bold;
     font-size: 25px;
     line-height: 30px;
     color: #ffffff;
-    margin-left: 30px;
+    letter-spacing: -2,5263px;
+    padding-left: 58px;
   }
   button :hover {
     cursor: pointer;
   }
   .tarif {
-    color: #e5e5e5;
     background-color: #192f48;
     border-radius: 6px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 55px;
+    margin-right: 55px;
   }
   .tarif h5 {
     font-weight: bold;
-    font-size: 13px;
+    font-size: 15px;
     color: #e5e5e5;
     letter-spacing: 0.433333px;
     text-transform: uppercase;
-    margin-left: 30px;
   }
   .tarif .fonds {
     background: #2b405a;
     border-radius: 6px;
-    padding-bottom: -70px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 29px 40px 36px 45px;
   }
   .tarif p {
     font-size: 12px;
     letter-spacing: -0.4px line-height 23px;
-    margin-left: 35px;
-    margin-right: 35px;
+    color: #e5e5e5;
   }
   .tarif button {
     background-color: #258AFF;
     color: #e5e5e5;
-    margin-left: 35px;
+    width: 181px;
+    height: 30px;
+    border-radius: 5px;
     border: none;
+    margin-top: 32px;
+  }
+  .tarif h6 {
+    color: #878B90;
   }
   .prix {
+    color: #FFFFFF;
+    height: 50px;
+  }
+  .prix h6 {
+    font-size: 13px;
+    letter-spacing: -0.4px;
+    color: #FFFFFF;
+    position: relative;
+  }
+  .prix h3 {
+    font-size: 30px;
+    position: relative;
+    left: 10px;
+    bottom: 40px;
+  }
+  .prix p {
+    font-size: 17px;
+    position: relative;
+    left: 43px;
+    bottom: 85px;
+    color: #FFFFFF;
+  }
+  .text-barré {
+    text-decoration: line-through;
+    color: #878B90;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 0px;
   }
-  h6 {
-    font-size: 13px;
-    letter-spacing: -0.4px;
+  .text-barré p {
     color: #878B90;
-    margin-left: 35px;
+  }
+  .basic div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 13px;
+  }
+  .basic h6 {
+    color: #878B90;
   }
   .fonds2 {
-    background: #FFFFFF;
+    background: #192F48;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-top: 49px;
+    margin-bottom: 70px;
+  }
+  .fonds2 .fonds2A {
     border-radius: 6px;
-    padding-bottom: -70px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 49px 55px 30px 55px;
+    background: #FFFFFF;
+    width: 318px;
+    padding-bottom: -50px;
   }
-  .fonds2 h2, .fonds2 h4 {
-    color: #1F1F1F;
+  .fonds2 .pop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+    gap: 150px;
   }
-  .fonds2 h5 {
+  .fonds2 .pop h5 {
     letter-spacing: 0.433333px;
     text-transform: uppercase;
     color: #666666;
+    font-size: 20px;
   }
-  .fonds2 .pop {
+  .fonds2 .pop button {
     background: #4EAB08;
     border-radius: 13px;
     font-weight: bold;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 20px;
     letter-spacing: -0.514286px;
     text-transform: uppercase;
     color: #FFFFFF;
     float: right;
     margin-right: 20px;
+    border: none;
   }
   .fonds2 .prix2 {
     color: #1F1F1F;
-    margin-left: 35px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  }
+  .fonds2 .prix2 h2 {
+    color: #000000;
+    margin: 0;
+  }
+  .fonds2 .prix2 h4 {
+    position: relative;
+    left: -60px;
+    color: #000000;
+  }
+  .fonds2 .prix2 h2 {
+    position: relative;
+    left: -50px;
+    bottom: 20px;
+  }
+  .fonds2 .prix2 h3 {
+    position: relative;
+    left: 40px;
+    bottom: 50px;
   }
   .fonds2 .pro {
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: -0.4px;
     color: #666666;
     font-weight: normal;
@@ -306,26 +413,55 @@
   .fonds2 .pro img {
     color: #1F1F1F;
   }
+  .fonds2 .pro div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+  }
+  .fonds2 button {
+    background-color: #FC593B;
+    color: #e5e5e5;
+    width: 181px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 32px;
+  }
+  .fonds2 h6 {
+    color: #878B90;
+  }
 }
 
 footer {
   background-color: #e3eef8;
 }
 
-footer img {
+footer .logo-ft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+  justify-items: baseline;
+  height: 14px;
+  margin-left: 61px;
+  padding-top: 30px;
+}
+
+footer .logo-ft img {
   right: 83.52%;
   bottom: 12.57%;
   background: #258AFF;
 }
 
-footer h5 {
+footer .logo-ft h5 {
   font-family: Rubik;
   font-weight: normal;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: -1px;
   color: #1F1F1F;
-  margin-left: 45px;
+  margin-top: 0px;
 }
 
 footer p {
@@ -333,16 +469,27 @@ footer p {
   line-height: 28px;
   color: #666666;
   letter-spacing: -0.4px;
-  margin-left: 35px;
+  margin-left: 55px;
   margin-right: 80px;
 }
 
 footer .end {
   left: 58px;
   top: 5942px;
+  margin-left: 55px;
 }
 
 footer .f-help, footer .f-products, footer .f-support {
   list-style-type: none;
+  font-weight: bold;
+  letter-spacing: -0.4px;
+  font-size: 15px;
+  line-height: 40px;
+  margin-left: -3px;
+  padding-left: 55px;
+}
+
+footer .help, footer .support, footer .products {
+  color: #666666;
 }
 /*# sourceMappingURL=style.css.map */
