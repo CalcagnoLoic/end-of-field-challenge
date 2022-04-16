@@ -1,7 +1,7 @@
-# end-of-field-challenge
+# End of field challenge
 
-Ce dépôt github contient la landing page en lien avec la fin du module de la prairie.
+This github repository contains the landing page related to the end of the field module.
 
-Projet en collaboration avec Sarah
+Project in collaboration with Sarah
 
-https://calcagnoloic.github.io/end-of-field-challenge/
+[Landing Page](https://calcagnoloic.github.io/end-of-field-challenge/)
